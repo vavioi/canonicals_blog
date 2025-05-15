@@ -48,7 +48,7 @@ export const Select = (props: SelectProps) => {
 	};
 
 	return (
-		<div>
+		<div className={styles.container}>
 			{title && (
 				<>
 					<Text size={12} weight={800} uppercase>
